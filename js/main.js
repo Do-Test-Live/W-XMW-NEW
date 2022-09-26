@@ -34,3 +34,5 @@ function footerBG(){gsap.from(".footer_bg",{scrollTrigger:{trigger:".footer",scr
 function checkScreenSize(){if(window.innerWidth>=768){menuBg();peakSlide();roadmapBg();roadmapPin();randomCard();whyCardMove();footerBG();airBG(-90);parallax_effect();}else{peakPin();roadmapBg();airBG(-60);}}
 window.addEventListener('load',function(){checkScreenSize();okPerpare();})
 window.addEventListener('resize',function(event){checkScreenSize();okPerpare();});
+
+
