@@ -2146,10 +2146,29 @@ footer .footer_wrapper small {
 .right-image{
     margin-left: 25px;
 }
+.tablinks img{
+    height: 40px;
+}
+.first-row-image{
+    width: 60% !important;
+}
+
+
 
 @media screen and (max-width: 996px) {
     .description{
         font-size: 18px;
     }
+    .tablinks img{
+        height: 25px;
+        margin-right: 20px;
+    }
+    .first-row-image{
+        width: 80% !important;
+    }
+    .right-image{
+        margin-left: 0;
+    }
+
 
 }
