@@ -2152,7 +2152,9 @@ footer .footer_wrapper small {
 .first-row-image{
     width: 60% !important;
 }
-
+.social_icon_margin{
+    margin-bottom: 7px;
+}
 
 
 @media screen and (max-width: 996px) {
