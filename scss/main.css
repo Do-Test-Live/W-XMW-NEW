@@ -599,11 +599,11 @@ section {
 }
 
 .eco_section {
-    background-color: #9cbff5;
+    background-color: #2d2f44;
 }
 
 .eco_section figure {
-    width: 90vw;
+    width: 109vw;
     max-width: 900px;
     margin: 0 0
 }
@@ -1170,7 +1170,7 @@ section {
 .logo_list .logo {
     display: inline-block;
     position: relative;
-    height: 58px;
+    height: 100px;
     width: auto;
     margin: 20px 15px 50px
 }
@@ -1230,7 +1230,6 @@ section {
     display: block;
     font-size: 14px;
     font-weight: 600;
-    content: "O2O Gamification";
     margin-top: 4px
 }
 
