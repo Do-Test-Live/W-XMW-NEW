@@ -1469,7 +1469,7 @@ section {
 }
 
 .discord {
-    background-color: #6d44e0
+    background-color: #2859fa
 }
 
 .facebook {
@@ -1704,10 +1704,6 @@ footer .footer_wrapper small {
 
     .intro_section .max_width {
         bottom: unset
-    }
-
-    .big_title {
-        width: 430px
     }
 
     .big_title .slogan_cn {
@@ -1988,7 +1984,7 @@ footer .footer_wrapper small {
     }
 
     .team_list .team_member {
-        width: 33%
+        width: 25%
     }
 
     .team_list .team_member figure {
