@@ -297,7 +297,7 @@ section {
     display: block;
     position: relative;
     width: 100vw;
-    height: 105vh;
+    height: 85vh;
     background-color: #3571c7;
     background-position: center;
     background-size: cover;
@@ -1980,7 +1980,7 @@ footer .footer_wrapper small {
         flex-wrap: wrap;
         -webkit-box-pack: center;
         -ms-flex-pack: center;
-        justify-content: center
+        justify-content: center;
     }
 
     .team_list .team_member {
@@ -2151,6 +2151,11 @@ footer .footer_wrapper small {
     margin-bottom: 7px;
 }
 
+@media screen and (max-width: 700px) {
+    .team_list {
+        overflow-x: scroll;
+    }
+}
 
 @media screen and (max-width: 996px) {
     .description{
@@ -2166,6 +2171,5 @@ footer .footer_wrapper small {
     .right-image{
         margin-left: 0;
     }
-
 
 }
