@@ -1398,7 +1398,7 @@ section {
 }
 
 .community_section .max_width {
-    margin: 70px 0 80px
+    margin: 70px 0 60px
 }
 
 .community_list {
@@ -1475,6 +1475,7 @@ section {
 .facebook {
     background-color: #1e8bef
 }
+
 
 footer {
     display: -webkit-box;
@@ -2016,7 +2017,7 @@ footer .footer_wrapper small {
     }
 
     .community_section .max_width {
-        margin: 70px 0 120px
+        margin: 70px 0 70px
     }
 
     .community_list {
@@ -2173,3 +2174,5 @@ footer .footer_wrapper small {
     }
 
 }
+
+

@@ -898,22 +898,90 @@
 <section id="community" class="community_section">
     <div class="max_width">
         <h1>COMMUNITY</h1>
-
         <div class="row">
-            <div class="col-lg-6" style="margin-top: 80px">
-                <div>
+            <div class="col-lg-4" style="margin-top: 45px">
+                <div style="margin: auto;width: 65%">
                     <a href="https://facebook.com/XMomentWorld" target="_blank"
                        class="community_card facebook button_enlarge">
                         <span class="social_icon_margin"><img src="images/svg/facebook.svg"></span>Follow Facebook
                     </a>
-                    <a href="https://t.me/XmomentTech" target="_blank" class="community_card twitter button_enlarge">
-                        <span class="social_icon_margin" style="color: white"><img src="images/svg/telegram.svg"></span>
-                        Telegram
+                    <a class="community_card facebook button_enlarge" data-bs-toggle="modal" data-bs-target="#facebookModal">
+                        <span class="social_icon_margin" style="color: white"><img src="images/svg/qrcode.svg"></span>Show QR Code
                     </a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img src="images/qr_codew.png" style="width: 250px" alt="">
+            <div class="col-lg-4" style="margin-top: 45px">
+                <div style="margin: auto;width: 65%">
+                    <a href="https://t.me/XMomentWorld" target="_blank" class="community_card twitter button_enlarge">
+                        <span class="social_icon_margin" style="color: white"><img src="images/svg/telegram.svg"></span>Telegram
+                    </a>
+                    <a class="community_card twitter button_enlarge" data-bs-toggle="modal" data-bs-target="#telegramModal">
+                        <span class="social_icon_margin"><img src="images/svg/qrcode.svg"></span>Show QR Code
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4" style="margin-top: 45px">
+                <div style="margin: auto;width: 65%">
+                    <a href="https://www.instagram.com/x_momentworld/" target="_blank"
+                       class="community_card ig button_enlarge">
+                        <span class="social_icon_margin"><img src="images/svg/instagram_logo.svg"></span>Follow Instagram
+                    </a>
+                    <a class="community_card ig button_enlarge" data-bs-toggle="modal" data-bs-target="#instagramModal">
+                        <span class="social_icon_margin" style="color: white"><img src="images/svg/qrcode.svg"></span>Show QR Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="facebookModal" tabindex="-1" aria-labelledby="facebookModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="facebookModalLabel">Facebook</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/qr/facebook.png" alt="" class="img-fluid"/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="instagramModal" tabindex="-1" aria-labelledby="instagramModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="instagramModalLabel">Instagram</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/qr/instagram.png" alt="" class="img-fluid"/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="telegramModal" tabindex="-1" aria-labelledby="telegramModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="telegramModalLabel">Telegram</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/qr/telegram.png" alt="" class="img-fluid"/>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
