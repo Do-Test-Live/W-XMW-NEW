@@ -1170,7 +1170,7 @@ section {
 .logo_list .logo {
     display: inline-block;
     position: relative;
-    height: 100px;
+    height: 87px;
     width: auto;
     margin: 20px 15px 50px
 }
@@ -2171,6 +2171,13 @@ footer .footer_wrapper small {
     }
     .right-image{
         margin-left: 0;
+    }
+    .team_name{
+        font-size: 20px;
+    }
+    .team_desc{
+        font-size: 18px;
+        padding: 0 20px;
     }
 
 }
